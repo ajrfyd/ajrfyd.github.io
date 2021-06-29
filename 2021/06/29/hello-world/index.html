@@ -11,7 +11,7 @@
     
     
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ajrfyd","sameAs":[]},"articleBody":"Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.\nQuick StartCreate a new post1$ hexo new &quot;My New Post&quot;\n\nMore info: Writing\nRun server1$ hexo server\n\nMore info: Server\nGenerate static files1$ hexo generate\n\nMore info: Generating\nDeploy to remote sites1$ hexo deploy\n\nMore info: Deployment\n","dateCreated":"2021-06-29T22:42:13+09:00","dateModified":"2021-06-29T22:42:13+09:00","datePublished":"2021-06-29T22:42:13+09:00","description":"","headline":"Hello World","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2021/06/29/hello-world/"},"publisher":{"@type":"Organization","name":"ajrfyd","sameAs":[]},"url":"http://example.com/2021/06/29/hello-world/"}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"ajrfyd","sameAs":[],"image":"lsh.JPG"},"articleBody":"Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.\nQuick StartCreate a new post1$ hexo new &quot;My New Post&quot;\n\nMore info: Writing\nRun server1$ hexo server\n\nMore info: Server\nGenerate static files1$ hexo generate\n\nMore info: Generating\nDeploy to remote sites1$ hexo deploy\n\nMore info: Deployment\n","dateCreated":"2021-06-29T22:42:13+09:00","dateModified":"2021-06-29T22:42:13+09:00","datePublished":"2021-06-29T22:42:13+09:00","description":"","headline":"Hello World","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2021/06/29/hello-world/"},"publisher":{"@type":"Organization","name":"ajrfyd","sameAs":[],"image":"lsh.JPG","logo":{"@type":"ImageObject","url":"lsh.JPG"}},"url":"http://example.com/2021/06/29/hello-world/"}</script>
     <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="Hello World">
@@ -27,6 +27,8 @@
     
         
     
+    
+        <meta property="og:image" content="http://example.com/assets/images/lsh.JPG"/>
     
     
     
@@ -51,6 +53,10 @@
 
 
     
+        
+            
+        
+    
 
 <header id="header" data-behavior="5">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
@@ -72,6 +78,8 @@
             >
         
         
+            <img class="header-picture" src="/assets/images/lsh.JPG" alt="Author&#39;s picture"/>
+        
         </a>
     
 </header>
@@ -79,8 +87,26 @@
             <!-- Define author's picture -->
 
 
+
+        
+    
+
 <nav id="sidebar" data-behavior="5">
     <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a
+                    href="/#about"
+                    aria-label="Read more about the author"
+                >
+                    <img class="sidebar-profile-picture" src="/assets/images/lsh.JPG" alt="Author&#39;s picture"/>
+                </a>
+                <h4 class="sidebar-profile-name">ajrfyd</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>author.bio</p>
+</h5>
+                
+            </div>
         
         
             <ul class="sidebar-buttons">
@@ -485,11 +511,17 @@
         
 
 
+    
+        
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-times"></i>
         </div>
+        
+            <img id="about-card-picture" src="/assets/images/lsh.JPG" alt="Author&#39;s picture"/>
         
             <h4 id="about-card-name">ajrfyd</h4>
         
