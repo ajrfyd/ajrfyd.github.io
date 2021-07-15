@@ -245,10 +245,10 @@
 <p>const arr = [1, 2, 3, 4];<br>function fil(item) { return item !==3 };<br>console.log(arr.filter(fil));<br>(3) [1, 2, 4]</p>
 </blockquote>
 <blockquote>
-<p>const fruit = [‘apple’, ‘pineapple’, ‘watermelon’, ‘hotdog’];<br>function notFruit(item) { return !== ‘hotdog’ }<br>console.log(fruit.filter(notFruit));<br>(3) [‘apple’, ‘pineapple’, ‘watermelon’]</p>
+<p>const fruit = [‘apple’, ‘pineapple’, ‘watermelon’, ‘hotdog’];<br>function notFruit(item) { return !== ‘hotdog’ }<br>console.log(fruit.filter(notFruit));<br>(3) [‘apple’, ‘pineapple’, ‘watermelon’]<br>console.log(fruit.filter(item =&gt; item !== ‘hotdog’)); // 같은 결과(한줄)<br>fruit2 = fruit.filter(item =&gt; item !== ‘hotdog’);<br>console.log(fruit2) // 원 배열을 건들지 않음.</p>
 </blockquote>
 <blockquote>
-<p>true 값을 반환한다. false를 제외한 값을 반환!!<br>filter는 원래 arr를 수정하지 않는다.</p>
+<p>true 값을 반환한다. false를 제외한 값을 반환!!<br>filter는 원래 arr를 수정하지     않는다.</p>
 </blockquote>
 <h2 id="forEach"><a href="#forEach" class="headerlink" title="forEach"></a>forEach</h2>
                     
