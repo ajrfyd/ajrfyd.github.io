@@ -216,6 +216,125 @@
                     
                         <a
                             class="link-unstyled"
+                            href="/2021/07/17/Paint-canvas/"
+                            aria-label=": Paint(canvas)"
+                        >
+                            Paint(canvas)
+                        </a>
+                    
+                </h1>
+                <div class="postShorten-meta">
+    <time datetime="2021-07-17T14:47:54+09:00">
+	
+		    Jul 17, 2021
+    	
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Experience/">Experience</a>, <a class="category-link" href="/categories/Experience/canvas/">canvas</a>, <a class="category-link" href="/categories/Experience/canvas/JavaScript/">JavaScript</a>
+
+
+    
+</div>
+
+            </div>
+            
+                <div class="postShorten-content">
+                    <h2 id=""><a href="#" class="headerlink" title=""></a></h2>
+                    
+                        
+
+
+                    
+                    
+                        <p>
+                            <a
+                                href="/2021/07/17/Paint-canvas/#post-footer"
+                                class="postShorten-excerpt_link link"
+                                aria-label=""
+                            >
+                                Comment and share
+                            </a>
+                        </p>
+                    
+                </div>
+            
+        </div>
+        
+    </article>
+    
+    
+    <article class="postShorten postShorten--thumbnailimg-bottom">
+        <div class="postShorten-wrap">
+            
+            <div class="postShorten-header">
+                <h1 class="postShorten-title">
+                    
+                        <a
+                            class="link-unstyled"
+                            href="/2021/07/17/weatherApi/"
+                            aria-label=": weather api"
+                        >
+                            weather api
+                        </a>
+                    
+                </h1>
+                <div class="postShorten-meta">
+    <time datetime="2021-07-17T14:45:06+09:00">
+	
+		    Jul 17, 2021
+    	
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Experience/">Experience</a>, <a class="category-link" href="/categories/Experience/weatherApi/">weatherApi</a>, <a class="category-link" href="/categories/Experience/weatherApi/JavaScript/">JavaScript</a>
+
+
+    
+</div>
+
+            </div>
+            
+                <div class="postShorten-content">
+                    <h2 id="Weather-API"><a href="#Weather-API" class="headerlink" title="Weather API"></a>Weather API</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://openweathermap.org/">https://openweathermap.org/</a><br>KEY 값 얻어라<br>const API_KEY = ‘cccae061760e2ebff41a639d65c60672’;<br>function onGeoOk(position) {<br>  const lat = position.coords.latitude;<br>  const lon = position.coords.longitude;<br>  const url = <code>https://api.openweathermap.org/data/2.5/weather?lat=$&#123;lat&#125;&amp;lon=$&#123;lon&#125;&amp;appid=$&#123;API_KEY&#125;&amp;units=metric</code><br>  console.log(url);<br>  fetch(url).then(response =&gt; response.json()).then(data =&gt; {<br>    const weather = document.querySelector(‘#weather span:first-child’);<br>    const city = document.querySelector(‘#weather span:last-child’);<br>    city.innerText = data.name;<br>    weather.innerText = <code>$&#123;data.weather[0].main&#125; / $&#123;data.main.temp&#125;</code>;<br>  });<br>}</p>
+</blockquote>
+<p>function onGeoEr() {<br>  alert(“We can’t find you. No weather for you.”)<br>}</p>
+<p>navigator.geolocation.getCurrentPosition(onGeoOk, onGeoEr);</p>
+
+                    
+                        
+
+
+                    
+                    
+                        <p>
+                            <a
+                                href="/2021/07/17/weatherApi/#post-footer"
+                                class="postShorten-excerpt_link link"
+                                aria-label=""
+                            >
+                                Comment and share
+                            </a>
+                        </p>
+                    
+                </div>
+            
+        </div>
+        
+    </article>
+    
+    
+    <article class="postShorten postShorten--thumbnailimg-bottom">
+        <div class="postShorten-wrap">
+            
+            <div class="postShorten-header">
+                <h1 class="postShorten-title">
+                    
+                        <a
+                            class="link-unstyled"
                             href="/2021/07/15/function(arr)/"
                             aria-label=": function(arr)"
                         >
@@ -260,6 +379,72 @@
                         <p>
                             <a
                                 href="/2021/07/15/function(arr)/#post-footer"
+                                class="postShorten-excerpt_link link"
+                                aria-label=""
+                            >
+                                Comment and share
+                            </a>
+                        </p>
+                    
+                </div>
+            
+        </div>
+        
+    </article>
+    
+    
+    <article class="postShorten postShorten--thumbnailimg-bottom">
+        <div class="postShorten-wrap">
+            
+            <div class="postShorten-header">
+                <h1 class="postShorten-title">
+                    
+                        <a
+                            class="link-unstyled"
+                            href="/2021/07/15/function/"
+                            aria-label=": function(arr)"
+                        >
+                            function(arr)
+                        </a>
+                    
+                </h1>
+                <div class="postShorten-meta">
+    <time datetime="2021-07-15T22:07:10+09:00">
+	
+		    Jul 15, 2021
+    	
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/JavaScript-function/">JavaScript - function</a>
+
+
+    
+</div>
+
+            </div>
+            
+                <div class="postShorten-content">
+                    <h1 id="배열-관련"><a href="#배열-관련" class="headerlink" title="배열 관련"></a>배열 관련</h1><h2 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h2><blockquote>
+<p>const arr = [1, 2, 3, 4];<br>function fil(item) { return item !==3 };<br>console.log(arr.filter(fil));<br>(3) [1, 2, 4]</p>
+</blockquote>
+<blockquote>
+<p>const fruit = [‘apple’, ‘pineapple’, ‘watermelon’, ‘hotdog’];<br>function notFruit(item) { return !== ‘hotdog’ }<br>console.log(fruit.filter(notFruit));<br>(3) [‘apple’, ‘pineapple’, ‘watermelon’]<br>console.log(fruit.filter(item =&gt; item !== ‘hotdog’)); // 같은 결과(한줄)<br>fruit2 = fruit.filter(item =&gt; item !== ‘hotdog’);<br>console.log(fruit2) // 원 배열을 건들지 않음.</p>
+</blockquote>
+<blockquote>
+<p>true 값을 반환한다. false를 제외한 값을 반환!!<br>filter는 원래 arr를 수정하지     않는다.</p>
+</blockquote>
+<h2 id="forEach"><a href="#forEach" class="headerlink" title="forEach"></a>forEach</h2>
+                    
+                        
+
+
+                    
+                    
+                        <p>
+                            <a
+                                href="/2021/07/15/function/#post-footer"
                                 class="postShorten-excerpt_link link"
                                 aria-label=""
                             >
